@@ -1,8 +1,8 @@
 <div align="center">
 
-# ☁️ ServerSim Cloud — Alpha v0.00.1
+# ☁️ ServerSim Cloud — Alpha v0.00.2
 
-**Alpha v0.00.1 · A browser-based cloud hosting, data center, and server operating system simulator.**
+**Alpha v0.00.2 · A browser-based cloud hosting, data center, and server operating system simulator.**
 
 Explore a fictional infrastructure lab inspired by cloud provider dashboards and game-server control panels — right in your browser.
 
@@ -16,6 +16,16 @@ Explore a fictional infrastructure lab inspired by cloud provider dashboards and
 > **This is an educational simulation, not a real hosting provider.** It does not create cloud instances, run actual Linux commands, open ports, host databases, or start Minecraft servers. Metrics, IP addresses, service states, and player counts are demo data.
 
 ## ✨ Features
+
+### Alpha v0.00.2 updates
+
+- **Improved simulated terminal** — adds `history`, `who`, `hostnamectl`, `ip route`, and `systemctl list-units`; commands remain simulated and do not run on the host.
+- **Configuration import and export** — export a versioned JSON snapshot or import a compatible snapshot with basic structure, record-count, and file-size validation. Import replaces the current local demo data after confirmation.
+- **Server lifecycle controls** — create, start, stop, restart, and remove fictional instances from the dashboard.
+- **Activity and resource monitoring** — view simulated CPU, memory, network, and recent event activity.
+- **Interface polish** — clearer import/export actions and updated Alpha version metadata.
+- **Release notes** — see [CHANGELOG.md](CHANGELOG.md) for this release.
+
 
 - **Cloud dashboard** — view fictional compute instances, activity events, and resource utilization.
 - **Virtual server management** — create, start, stop, restart, and remove simulated instances with configurable CPU, RAM, region, and role.
@@ -93,7 +103,7 @@ The current implementation keeps the app in `index.html` to make it easy to insp
 
 ServerSim Cloud is an early-stage interface and infrastructure simulation. The current goal is to provide a polished playground for learning about hosting concepts before considering any real integrations.
 
-Possible future directions include:
+SSH remains planned for the official v1.0.0 milestone; the current Alpha does not provide a real SSH daemon or remote shell. Possible future directions include:
 - Separating the single-page app into maintainable HTML, CSS, and JavaScript files.
 - Adding more detailed service logs and instance configuration.
 - Improving accessibility and localization.
