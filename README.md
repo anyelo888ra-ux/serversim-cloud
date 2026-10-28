@@ -1,8 +1,8 @@
 <div align="center">
 
-# ☁️ ServerSim Cloud
+# ☁️ ServerSim Cloud — Alpha v0.00.1
 
-**A browser-based cloud hosting, data center, and server operating system simulator.**
+**Alpha v0.00.1 · A browser-based cloud hosting, data center, and server operating system simulator.**
 
 Explore a fictional infrastructure lab inspired by cloud provider dashboards and game-server control panels — right in your browser.
 
