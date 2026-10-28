@@ -1,8 +1,8 @@
 <div align="center">
 
-# ☁️ ServerSim Cloud — Alpha v0.00.2
+# ☁️ ServerSim Cloud — Alpha v0.00.3
 
-**Alpha v0.00.2 · A browser-based cloud hosting, data center, and server operating system simulator.**
+**Alpha v0.00.3 · A browser-based cloud hosting, data center, and server operating system simulator.**
 
 Explore a fictional infrastructure lab inspired by cloud provider dashboards and game-server control panels — right in your browser.
 
@@ -17,7 +17,7 @@ Explore a fictional infrastructure lab inspired by cloud provider dashboards and
 
 ## ✨ Features
 
-### Alpha v0.00.2 updates
+### Alpha v0.00.3 updates
 
 - **Improved simulated terminal** — adds `history`, `who`, `hostnamectl`, `ip route`, and `systemctl list-units`; commands remain simulated and do not run on the host.
 - **Configuration import and export** — export a versioned JSON snapshot or import a compatible snapshot with basic structure, record-count, and file-size validation. Import replaces the current local demo data after confirmation.
@@ -103,7 +103,7 @@ The current implementation keeps the app in `index.html` to make it easy to insp
 
 ServerSim Cloud is an early-stage interface and infrastructure simulation. The current goal is to provide a polished playground for learning about hosting concepts before considering any real integrations.
 
-SSH remains planned for the official v1.0.0 milestone; the current Alpha does not provide a real SSH daemon or remote shell. Possible future directions include:
+SSH remains planned for the official v1.0.0 milestone; the current Alpha does not provide a real SSH daemon or remote shell. The planned Beta v0.09 may add responsive device detection for mobile and desktop layouts. This is a roadmap idea, not a current feature. SSH remains planned for the official v1.0.0 milestone; the current Alpha does not provide a real SSH daemon or remote shell. Possible future directions include:
 - Separating the single-page app into maintainable HTML, CSS, and JavaScript files.
 - Adding more detailed service logs and instance configuration.
 - Improving accessibility and localization.
@@ -131,3 +131,8 @@ This project is released under the **MIT License**. See [LICENSE](LICENSE) for d
 Made for experimenting with cloud and server concepts — without needing a server bill.
 
 </div>
+
+
+## 🌐 Internet Archive / Wayback Machine
+
+You can request an archive snapshot of the deployed public website at the [Wayback Machine Save Page Now](https://web.archive.org/save/) page. Submit the live deployment URL and wait for the archive service to respond. Saving a snapshot is not the same as search-engine indexing, and availability or archiving is controlled by the Internet Archive; this project cannot guarantee that a page will be saved or indexed.
